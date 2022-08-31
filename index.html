@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- Google Fonts Pre Connect -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,17 +16,49 @@
   <!-- CSS Files Links -->
   <link rel="stylesheet" href="style.css">
 
+  <!-- Lottie JSON -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
   <!-- Title -->
   <title>JavaScript Advance</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./images/javascript-seeklogo.com.svg">
 </head>
+
 <body>
   <header>
     <h1>JavaScript Advanced Topics</h1>
-     <p>JavaScript Crash Course with Advanced topic</p>
+    <p>JavaScript Crash Course with Advanced topic</p>
   </header>
 
+  <div class="main">
+    <div class="content">
+      <ul class="heading">
+        <h3>Topic covered in this tutorials</h3>
+        <li class="topic">Functions</li>
+        <li class="topic">Arrow Functions </li>
+        <li class="topic">ES6 with parameters</li>
+        <li class="topic">Object Oriented Programming</li>
+        <li class="topic">Classes</li>
+        <li class="topic">Selectors</li>
+        <li class="topic">Document Object Model</li>
+        <li class="topic">Events</li>
+        <li class="topic">Form Validation</li>
+
+
+      </ul>
+    </div>
+
+    <div class="anim">
+
+      <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_lwpbfw74.json" background="transparent"
+        speed=".7" style="width: 200px; height: 200px;" loop autoplay></lottie-player>
+
+    </div>
+
    
-  <section class="container">
+    <div class="container">
+       <h3>Form Validation</h3>
       <form id="my-form">
         <h1>Add User</h1>
         <div class="msg"></div>
@@ -39,16 +72,22 @@
         </div>
         <input class="btn" type="submit" value="Submit">
       </form>
-
       <ul id="users"></ul>
-
-      <!-- <ul class="items">
+      <ul class="items">
         <li class="item">Item 1</li>
         <li class="item">Item 2</li>
         <li class="item">Item 3</li>
-      </ul> -->
-    </section>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <footer>&copy; Copyright 2022 | Vigneshwaran BS</footer>
+
+  <!-- <script src="main.js"></script> -->
 
   <script src="main2.js"></script>
 </body>
+
 </html>

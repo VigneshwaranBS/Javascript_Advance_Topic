@@ -25,11 +25,27 @@ header {
   text-align: center;
 }
 
-.container {
-  margin: auto;
+.main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content {
+  /* margin: auto; */
   width: 500px;
   overflow: auto;
   padding: 3rem 2rem;
+}
+
+.container {
+  /* margin: auto; */
+  width: 500px;
+  overflow: auto;
+  padding: 3rem 2rem;
+}
+
+.anim {
+  margin-top: 50px;
 }
 
 #my-form {
@@ -74,4 +90,24 @@ header {
   color: #fff;
   padding: 5px;
   margin: 5px;
+}
+
+
+footer {
+  display: block;
+  background: #f4f4f4;
+  text-align: center;
+
+
+}
+
+@media (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .anim {
+    display: none;
+  }
 }
